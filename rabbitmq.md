@@ -25,5 +25,7 @@ remote host
 **reset all settings, returning the installation to a default state - use:**
 
 rabbitmqctl stop_app
+
 rabbitmqctl reset    # Be sure you really want to do this!
+
 rabbitmqctl start_app
